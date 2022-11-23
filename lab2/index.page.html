@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style> 
+		body{background-color: lightblue;}
+		h1{ color: purple; font-weight: 900; }
+		p {font-family: cursive, fantasy,serif; color: brown; font-size: small;}
+		#email{background-color: yellow;}
+		.number{background-color: pink;}
+	</style>
+</head>
+<body>
+	<p><bold><h1>New HTML5 Input Types Demo</h1></bold></p>
+	<p>This is demonstrates the new HTML5 input types and the placeholder, required and autofocus attributes. </p>
+	<form action= "/action_page.php">
+	<p><label> Color:
+		<input type = "color" autofocus />
+			(Hexadecimal code such as #ADD8E6)</label></p>
+	<p><label > Birthday: 
+		<input type = "date" >
+		 (yyyy-mm-dd)</label></p>
+	<p id="email"><form><label> Email: 
+			<input type="email" placeholder="name@domain.com">
+		(name@domain.com)</label></form></p>
+	<p class="number"><label> Number:
+			<input type ="number" min="0" max="7">
+		(Enter a number between 0 and 7)</label></p>
+	<p class="number"><label> Range: 0
+		<input type="range" min="0" max="20"> 20</label></p>
+	<p><label> Search: 
+		<input type="search" placeholder="search query"></label></p>
+	<p><label>Time:
+		<input type="time"> (hh:mm)</label></p></form>
+	<p><input type="submit"> <input type="reset"></p>
+</html>
