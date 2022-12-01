@@ -1,0 +1,97 @@
+@media print {body{
+	background-color: skyblue;
+	font-size: big;
+	font-family: fantasy,sans-serif,cursive;
+    }
+}
+
+@media screen and (min-width: 700px) {
+ 	body {
+ 		background-color: pink;
+ 	}
+ }
+
+ @media (max-width : 700px){
+ 	#long {
+ 		background-color: green;
+ 	}
+ }
+
+.form{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 92%;
+}
+
+#input{
+	position: relative;
+	right: -540px;
+	top: -63px;
+}
+
+#long{
+	position: relative;
+	width: 80%;
+	line-height: 280%;
+	margin: 10px 2% 10px 2%;
+	
+}
+
+#short1{
+	position: relative;
+    margin: 10px 2% -20px 2%;
+	width: 30%;
+	line-height: 280%;
+
+}
+
+#short2{
+	position: relative;
+	margin: 30px 2% 10px 2%;
+	width: 38.5%;
+	line-height: 280%;
+
+}
+
+#middletext label{
+	position: absolute;
+	margin: -10px 5% 10px 0%;
+}
+	 
+
+#middle{
+	position: relative;
+	margin: -100px 5% 10px 6%;
+	width: 60%;
+	line-height: 280%;
+}
+
+#text label {
+    position: absolute;
+    margin: 10px 5% 10px 0%;
+
+}
+
+#textarea{
+	position: relative;
+	margin: 10px 2% 10px 6%;
+	width: 80%;
+	
+}
+
+#photo label{
+	position: absolute;
+	margin: 10px -30% 10px 0%;
+}
+
+img{
+	width: 80%;
+	height: 400px;
+	display: block;
+	border: 3px solid red;
+	float:right; 
+	margin-right: 13%;
+}
+
+
