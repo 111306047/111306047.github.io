@@ -8,9 +8,9 @@
 <body>
 <script >
 	var rand = Math.floor((Math.random()* 10) +1);
-	userInteger = parseInt(window.prompt("Please enter a number: "));
+	userInteger = parseInt(window.prompt("Please enter a number between 1-10 : "));
 	while(userInteger != rand){
-		userInteger = parseInt(window.prompt("Please enter a number: "));
+		userInteger = parseInt(window.prompt("Wrong! Please try again. "));
 	} document.writeln("Congratulations! You are right!");
 
 
